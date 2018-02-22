@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Card, Header, Image, Popup} from 'semantic-ui-react'
+import { Grid, Card, Image, Popup, Divider} from 'semantic-ui-react'
 
 class HogItem extends React.Component {
 
@@ -28,7 +28,7 @@ class HogItem extends React.Component {
               <Card.Meta>
                 <span className='date'>
                   <div>
-                    <Popup trigger={<span>Weight: </span>}> 
+                    <Popup trigger={<span id="weight-popup">Weight:</span>}> 
                       Weight as a ratio of hog to LG - 24.7 Cu. Ft. French Door Refrigerator with Thru-the-Door Ice and Water 
                     </Popup> 
                     <strong>
@@ -43,6 +43,7 @@ class HogItem extends React.Component {
               <Card.Description>
                 Specialty: {this.props.hog.specialty}
               </Card.Description>
+              <Divider />
               <Card.Content extra>
                 {this.props.hog.greased ? <em>Greased!</em> : "Non-Slip"}
               </Card.Content>

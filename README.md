@@ -4,7 +4,7 @@
 
 ## Project goals:
   - create an index displaying all hog tiles [DONE]
-    - render each hog name and picture in a tile, and show the hog's details upon a user's click
+    - render each hog name and picture in a tile, and show the hog's details upon a user's click [DONE]
   - allow users to sort the hogs based on name and weight, and filter the hogs that are greased
   - BONUS: display a Hog image in your index––this is fairly complex so save it for later!
   - BONUS: allow users to hide hogs (not delete them, just hide them from view!)
